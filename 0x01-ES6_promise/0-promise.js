@@ -1,11 +1,11 @@
 export default function getResponseFromAPI() {
-    return new Promise((resolve, reject) =>
-    {
-        const success = true;
-        if (success) {
-            resolve("Operation was successful!");
-          } else {
-            reject("Operation failed.");
-          }
-    })
+  return new Promise((resolve, reject) => {
+    const success = true; // Simulate success or failure
+
+    if (success) {
+      resolve('Data fetched successfully!');
+    } else {
+      reject(new Error('Failed to fetch data.'));
+    }
+  });
 }
