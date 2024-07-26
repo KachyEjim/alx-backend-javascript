@@ -1,3 +1,4 @@
-import concatArrays from './5-spread-operator';
-
-console.log(concatArrays(['a', 'b'], ['c', 'd'], 'Hello'));
+const message = `This is a
+multiline
+string.`;
+console.log(message);
