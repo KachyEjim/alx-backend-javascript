@@ -8,8 +8,8 @@ export default function iterateThroughObject(reportWithIterator) {
     result = reportWithIterator.next();
   }
 
-  if (output.endsWith('| ')) {
-    output = output.slice(0, -2);
+  if (output.endsWith(' | ')) {
+    output = output.slice(0, -3);
   }
 
   return output;
